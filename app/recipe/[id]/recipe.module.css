@@ -1,0 +1,144 @@
+
+.container {
+  background-color: #f9f9f9a7;
+  padding: 20px;
+  border-radius: 8px;
+  width: 70%;
+  height: 80vh;
+  overflow: scroll;
+  margin: auto;
+  margin-top: 3rem;
+  border-radius: 1rem;
+}
+
+.image {
+  width: 30%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.title {
+  font-size: 2em;
+  margin: 20px 0;
+}
+
+.section {
+  margin: 20px 0;
+}
+
+.section h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.saveButton {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 1.5rem 2rem;
+  background-image: linear-gradient(to bottom right, #fbdb89a8, #f48a82c5);
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.296), 0 6px 20px 0 rgba(0, 0, 0, 0.29);
+}
+
+.favoritesSection {
+  margin-top: 40px;
+}
+
+.favoritesGrid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.favoriteCard {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  width: 200px;
+  text-align: center;
+  background-color: #fff; 
+}
+
+.favoriteThumbnail {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.favoriteTitle {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.removeButton {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 8px 16px;
+  background-color: #ff0000;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+@media (max-width: 768px) {
+  .container {
+    width: 90%;
+    height: auto;
+    padding: 10px;
+  }
+
+  .image {
+    width: 100%;
+  }
+
+  .title {
+    font-size: 1.5em;
+  }
+
+  .section h2 {
+    font-size: 1.2em;
+  }
+
+  .saveButton {
+    padding: 1rem 1.5rem;
+  }
+
+  .favoritesGrid {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .favoriteCard {
+    width: 100%;
+    max-width: 300px;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    width: 100%;
+    padding: 5px;
+  }
+
+  .title {
+    font-size: 1.2em;
+  }
+
+  .section h2 {
+    font-size: 1em;
+  }
+
+  .saveButton {
+    padding: 0.8rem 1rem;
+  }
+
+  .favoriteCard {
+    width: 100%;
+    max-width: 250px;
+  }
+}

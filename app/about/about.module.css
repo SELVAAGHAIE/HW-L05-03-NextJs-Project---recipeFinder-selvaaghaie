@@ -1,0 +1,18 @@
+.container h1{
+    width: 25%;
+margin: auto;
+margin-top: 2rem;
+margin-bottom: 2rem;
+}
+
+.container p{
+    color: rgb(62, 61, 61);
+    background-color: rgba(240, 248, 255, 0.655);
+    text-align: center;
+    padding: 2rem;
+}
+
+@media (max-width: 800px) {
+    .container h1 {
+      width: 100%;
+    }}
